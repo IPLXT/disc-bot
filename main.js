@@ -1,7 +1,7 @@
 const { Client, EmbedBuilder, SlashCommandBuilder } = require('discord.js');
 const client = new Client({ intents: ['Guilds', 'GuildMessages'] });
 
-const TOKEN = process.env['DISCORD_TOKEN']; // Store your token in Replit's Secrets
+const TOKEN = process.env['MTIzNzAyOTg2NDgwNDk3ODY4OQ.GivStq.fe8iFNlDB1ZGJE16qqjSGuY2t7kMQ28iWmWzOs']; // Store your token in Replit's Secrets
 
 // When the bot is ready
 client.once('ready', () => {
